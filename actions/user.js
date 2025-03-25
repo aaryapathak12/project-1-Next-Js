@@ -15,7 +15,7 @@ export async function updateUser(data){
         },
     });
 
-    if(!user) throw new Error("User Not Found");
+    if(!user) throw new Error("User Not Found try again");
 
     try {
 
